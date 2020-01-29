@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/workplace"
+            android:title="Αρχική" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/growth"
+            android:title="Έσοδα-Έξοδα" />
+        <item
+            android:id="@+id/nav_fpa"
+            android:icon="@drawable/commission"
+            android:title="ΦΠΑ - Φορολογικά" />
+        <item
+            android:id="@+id/nav_deiktes"
+            android:icon="@drawable/analytics1"
+            android:title="Δείκτες" />
+        <item
+            android:id="@+id/nav_ofeiles"
+            android:icon="@drawable/fired"
+            android:title="Οφειλές" />
+        <item
+            android:id="@+id/nav_ipoloipa"
+            android:icon="@drawable/browser"
+            android:title="Υπόλοιπα" />
+        <item
+            android:id="@+id/nav_eggrafa"
+            android:icon="@drawable/documents"
+            android:title="Έγγραφα" />
+
+    </group>
+
+    <item android:title="Άλλες επιλογές">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ρυθμίσεις" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Επικοινωνία" />
+        </menu>
+    </item>
+
+</menu>
