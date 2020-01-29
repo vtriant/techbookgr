@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book_genres">
+
+        <item>e2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>e2016</item>
+        <item>2015</item>
+
+    </string-array>
+</resources>

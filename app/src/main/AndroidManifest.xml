@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.webcraft.myforoplan">
-
+    package="com.webcraft.techbook">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/techbook"
+        android:label="techbook"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@drawable/techbook"
         android:supportsRtl="true"
+
         android:theme="@style/MyMaterialTheme">
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="TechBook"
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity
+        android:name=".MainLinks"
+            android:screenOrientation="portrait"
+        android:label="TechBook"
+        android:theme="@style/MyMaterialTheme">
+    </activity>
+        <activity
+            android:name=".MainApusies"
+            android:screenOrientation="portrait"
+            android:label="TechBook"
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity
+            android:name=".MainEpidoseis"
+            android:screenOrientation="portrait"
+            android:label="TechBook"
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+
+
+        <activity
+            android:name=".MainDocs"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity
+        android:name=".nointernet"
+            android:screenOrientation="portrait"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity
+            android:name=".loginscreen"
+            android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/MyMaterialTheme">
             <intent-filter>
@@ -19,11 +61,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainFpa"
-            android:label="@string/app_name"
-            android:theme="@style/MyMaterialTheme">
-        </activity>
     </application>
-
 </manifest>

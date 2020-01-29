@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFpa">
+    tools:context=".MainEpidoseis">
 
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
@@ -16,16 +16,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#f5f3f0"
+            android:background="#cb8a55"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="Webcraft | Φορολογικά"
-            app:titleTextColor="#7d726c"
+            app:title="Οι επιδόσεις μου"
+            app:titleTextColor="#ffffff"
 
             />
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_foros"/>
+    <include layout="@layout/content_epidosis"/>
 
 
 

@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context=".MainActivity">
+    tools:context=".MainDocs">
 
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
@@ -19,12 +18,15 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#cb8a55"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="Τα στοιχεία μου"
+            app:title="Τα έγγραφα μου"
+
             app:titleTextColor="#ffffff" />
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main"/>
+    <include layout="@layout/content_documents" />
+
+
 
 
 </android.support.design.widget.CoordinatorLayout>

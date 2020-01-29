@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f3f0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".loginscreen"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/techbook" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="Tο app για τον μαθητή!"
+        android:textColor="#cb8a55"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:hint="όνομα χρήστη"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etpassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="κωδικός" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Σύνδεση"
+        android:background="#cb8a55"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
